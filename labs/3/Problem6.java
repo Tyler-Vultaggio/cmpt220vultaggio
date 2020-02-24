@@ -10,7 +10,7 @@ public class Problem6
 	{
 		Scanner input = new Scanner(System.in);
 		System.out.print("Type a word :");
-		String word = input.next();
+		String word = input.nextLine(); // JA: This reads the whole line
 		System.out.println(Vowel(word) + " this is the number of vowels in the string.");
 	}
 	
