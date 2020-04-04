@@ -48,11 +48,11 @@ public class Problem2
 			num = x[i];
 			sum += sum;
 		}
-		double mean = sum/x.length;
+		double mean = sum/x.length; // JA: You should call the mean method
 		
 		for (int j = 0; j < x.length; j++)
 		{
-			newNum += ((x[j] - mean)*(x[j] - mean))/x.length;
+			newNum += ((x[j] - mean)*(x[j] - mean))/(x.length - 1); // JA
 		}
 		newNum = Math.sqrt(newNum);
 		return newNum;
