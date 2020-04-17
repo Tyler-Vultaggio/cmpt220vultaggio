@@ -107,7 +107,7 @@ public class MyLong
     }
 }
 
-/*class MyLongMain
+class MyLongMain
 {
 	public static void main(String[] args) 
 	{
@@ -132,4 +132,4 @@ public class MyLong
 	    System.out.println(MyLong.parseLong("34"));
 	    }
 }
-*/
+
