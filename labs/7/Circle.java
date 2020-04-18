@@ -60,7 +60,7 @@ public class Circle
 	public boolean Contains(Circle circle2) 
 	{
 		double distance = Math.sqrt(Math.pow(circle2.getX() - x, 2) + Math.pow(circle2.getY() - y, 2));
-		if(distance <= Math.abs(radius + circle2.getRadius()))
+		if(distance <= radius - circle2.getRadius())
 			return true;
 		return false;
 	}
@@ -74,7 +74,7 @@ public class Circle
 	}
 }
 
-/*class CircleTester 
+class CircleTester 
 {
 
 	public static void main(String[] args) 
@@ -87,4 +87,3 @@ public class Circle
 		System.out.println(c1.OverLaps(new Circle(3,5,2.3)));
 	}
 }
-*/
