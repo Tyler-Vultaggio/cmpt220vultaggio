@@ -6,7 +6,7 @@ public class binaryString
 {
     public static void main(String[] args) 
     {
-    	System.out.print(bin2Dec("1010001001001001010101010100101010"));
+    	
     }
     
     public static int bin2Dec(String binaryString)
